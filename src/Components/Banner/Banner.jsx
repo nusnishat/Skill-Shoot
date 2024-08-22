@@ -8,10 +8,10 @@ import { SlCalender } from 'react-icons/sl';
 
 const Banner = () => {
   return (
-    <div className="relative bg-custom-green text-white pt-16 px-10 lg:px-20 flex flex-col lg:flex-row items-center">
+    <div className="relative bg-custom-green text-white pt-12 px-10 lg:px-20 flex flex-col lg:flex-row items-center">
       {/* Banner Description Section */}
       <div className="flex-1 text-center lg:text-left">
-        <h1 className="text-3xl lg:leading-snug lg:text-6xl font-bold mb-4 relative">
+        <h1 className="text-xl lg:text-4xl leading-relaxed lg:leading-snug font-bold mb-4 relative">
           There is always <br /> something new for us to learn
         </h1>
         <p className="text-md lg:text-lg text-custom-light mb-8 max-w-md leading-loose">
@@ -22,7 +22,7 @@ const Banner = () => {
             Start Journey <FiArrowUpRight className="inline ms-2 text-2xl font-extrabold" />
           </button>
           {/* Social Media Icons */}
-          <div className="lg:ms-6 mt-4 flex justify-center lg:justify-start space-x-4">
+          <div className="lg:ms-6 mt-6 flex justify-center lg:justify-start space-x-4">
             <AiFillInstagram className="text-2xl text-white" />
             <IoLogoTwitter className="text-2xl text-white" />
             <FaDiscord className="text-2xl text-white" />
@@ -68,14 +68,14 @@ const Banner = () => {
       </div>
 
       {/* Floating Icons for Mobile Screens */}
-      <div className="absolute top-10 left-8 p-2 bg-[#F88C3D] rounded-lg flex items-center justify-center -rotate-12 lg:hidden z-10">
-        <HiPencil className='text-white text-2xl' />  
+      <div className="absolute top-8 left-6 p-2 bg-[#F88C3D] rounded-lg flex items-center justify-center -rotate-12 lg:hidden z-10">
+        <HiPencil className='text-white text-xl' />  
       </div>
-      <div className="absolute bottom-24 left-10 -rotate-12 p-2 bg-[#23BDEE] rounded-lg flex items-center justify-center lg:hidden z-10">
-        <SlCalender className='text-white text-2xl' />
+      <div className="absolute bottom-20 left-6 -rotate-12 p-2 bg-[#23BDEE] rounded-lg flex items-center justify-center lg:hidden z-10">
+        <SlCalender className='text-white text-xl' />
       </div>
-      <div className="absolute bottom-10 right-10 rotate-12 transform translate-x-1/2 p-2 bg-[#7252A4] rounded-lg flex items-center justify-center lg:hidden z-10">
-        <RxVideo className='text-white text-2xl' />
+      <div className="absolute bottom-8 right-10 rotate-12 transform translate-x-1/2 p-2 bg-[#7252A4] rounded-lg flex items-center justify-center lg:hidden z-10">
+        <RxVideo className='text-white text-xl' />
       </div>
     </div>
   );
