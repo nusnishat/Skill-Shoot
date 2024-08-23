@@ -1,20 +1,29 @@
-import React from 'react';
+
+import { MdCheck } from 'react-icons/md';
+import './SubscribeCard.css';
+import { FaCheck} from 'react-icons/fa';
+
 
 const SubscribeCard = ({ plan }) => {
     const {price, duration, title, description, features} = plan;
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 w-full lg:w-1/3 transform transition-transform hover:scale-105 hover:bg-green-700 hover:text-white">
-      <h3 className="text-lg font-semibold text-gray-700 hover:text-white">
-        ${price} <span className="text-base">/ {duration}</span>
-      </h3>
-      <h4 className="text-2xl font-bold text-gray-800 hover:text-white mt-2">{title}</h4>
-      <p className="text-gray-500 hover:text-white mt-2">{description}</p>
-      <ul className="mt-4 space-y-2 text-gray-600 hover:text-white">
+    <div className="card relative p-6 rounded-xl transition">
+      <div>
+      <button className='btn-hidden px-4 text-xs rounded-full py-2'>
+        Most Popular
+      </button>
+      </div>
+      <h1 className='price'>
+        <span className='text-xl lg:text-4xl font-bold'>${price}</span> <span className='duration'>/ {duration}</span>
+      </h1>
+      <h3 className='title text-xl lg:text-4xl font-bold'>{title}</h3>
+      <p >{description}</p>
+      <ul className='mt-4'>
         {features.map((feature, index) => (
-          <li key={index}>✔ {feature}</li>
+            <li className='mb-2' key={index}><MdCheck className='me-4 inline bg-slate-200  rounded-full' />{feature}</li>
         ))}
       </ul>
-      <button className="mt-4 w-full py-2 bg-gray-200 text-gray-600 rounded-full hover:bg-white hover:text-green-700">
+      <button className='btn px-12 rounded-full py-2'>
         Choose plan
       </button>
     </div>
