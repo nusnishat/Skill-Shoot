@@ -27,9 +27,9 @@ const About = () => {
             />
           </div>
           <div className="ms-4 text-sm">
-            <p className="font-semibold text-gray-800">How to build a team</p>
-            <p className="text-gray-600">Today at 12 PM</p>
-            <button className="bg-pink-500 mt-2 text-white font-semibold py-2 px-4 rounded-lg">
+            <p className="text-[12px] font-semibold text-gray-800">How to build a team</p>
+            <p className="text-[10px] text-gray-600">Today at 12 PM</p>
+            <button className="bg-pink-500 text-xs mt-2 text-white font-semibold py-2 px-4 rounded-lg">
               Join Now
             </button>
           </div>
@@ -47,33 +47,33 @@ const About = () => {
       </div>
 
       {/* Right Section */}
-      <div className="max-w-lg mt-10 lg:mt-0 lg:ml-12 text-center lg:text-left mx-auto ">
-        <h2 className="text-xl md:text-3xl lg:text-4xl font-bold lg:mt-20 mb-8 lg:mb-12">
+      <div className="max-w-lg mt-10 lg:mt-0 lg:ml-12  lg:text-left mx-auto ">
+        <h2 className="text-xl md:text-4xl lg:text-5xl font-bold lg:mt-20 mb-8 lg:mb-12">
           Let us <span className="text-custom-green">Skill Shoot</span>
         </h2>
-        <p className="text-sm md:text-[16px] text-[hsla(0, 0%, 50%, 1)] leading-loose">
+        <p className="text-xs md:text-[16px] text-[hsla(0, 0%, 50%, 1)] leading-loose">
           We are a company engaged in education with the aim of improving the skills of many people so that younger people can reach the career paths they want.
         </p>
-        <p className="text-sm md:text-[16px] mt-4 text-[hsla(0, 0%, 50%, 1)] leading-loose">
+        <p className="text-xs md:text-[16px] mt-4 text-[hsla(0, 0%, 50%, 1)] leading-loose">
           We have been around since 2019 with currently 100+ updated materials and 15K members who have joined.
         </p>
 
         <div className="mt-8 grid grid-cols-2 gap-8">
           <div className="flex items-center space-x-2">
             <div className='bg-[#FFF6F1] w-12 h-12 rounded-full flex justify-center items-center me-2'><FaRegUser className=' text-custom-coral text-lg lg:text-xl'/></div>
-            <p className="text-sm md:text-[16px] font-semibold text-black">15K People Join</p>
+            <p className="text-xs md:text-[16px] font-semibold text-black">15K People Join</p>
           </div>
           <div className="flex items-center space-x-2">
             <div className='bg-[#FFF6F1] w-12 h-12 rounded-full flex justify-center items-center me-2'><FiUserCheck className=' text-custom-coral text-lg lg:text-xl'/></div>
-            <p className="text-sm md:text-[16px] font-semibold text-black">Trusted Mentor</p>
+            <p className="text-xs md:text-[16px] font-semibold text-black">Trusted Mentor</p>
           </div>
           <div className="flex items-center space-x-2">
             <div className='bg-[#FFF6F1] w-12 h-12 rounded-full flex justify-center items-center me-2'><BiVideoRecording className=' text-custom-coral text-lg lg:text-xl'/></div>
-            <p className="text-sm md:text-[16px] font-semibold text-black">30+ Free Videos</p>
+            <p className="text-xs md:text-[16px] font-semibold text-black">30+ Free Videos</p>
           </div>
           <div className="flex items-center space-x-2">
             <div className='bg-[#FFF6F1] w-12 h-12 rounded-full flex justify-center items-center me-2'><RxVideo className=' text-custom-coral text-lg lg:text-xl'/></div>
-            <p className="text-sm md:text-[16px] font-semibold text-black">100+ Premium Videos</p>
+            <p className="text-xs md:text-[16px] font-semibold text-black">100+ Premium Videos</p>
           </div>
         </div>
       </div>

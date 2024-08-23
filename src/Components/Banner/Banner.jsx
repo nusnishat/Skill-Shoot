@@ -11,18 +11,18 @@ const Banner = () => {
     <div id='home' className="relative bg-custom-green text-white pt-12 px-10 lg:px-20 flex flex-col lg:flex-row items-center">
       {/* Banner Description Section */}
       <div className="flex-1 text-center lg:text-left">
-        <h1 className="text-xl md:text-3xl lg:text-4xl leading-relaxed lg:leading-snug font-bold mb-4 relative">
+        <h1 className="text-[28px] md:text-4xl lg:text-6xl leading-relaxed lg:leading-snug font-bold mb-4 relative">
           There is always <br /> something new for us to learn
         </h1>
-        <p className="text-md md:text-lg text-custom-light mb-8 max-w-md leading-loose">
+        <p className="text-xs md:text-lg text-custom-light mb-8 max-w-md leading-loose">
           We have created more than 100+ materials on various things that will help your career, with mentors who are experienced in their fields.
         </p>
         <div className="lg:flex mb-16">
-          <button className="text-lg lg:text-xl bg-custom-coral text-white font-bold py-3 px-8 rounded-md">
+          <button className="text-[16px] lg:text-[20px] bg-custom-coral text-white font-bold py-3 px-8 rounded-md">
             Start Journey <FiArrowUpRight className="inline ms-2 text-2xl font-extrabold" />
           </button>
           {/* Social Media Icons */}
-          <div className="lg:ms-6 mt-6 flex justify-center lg:justify-start space-x-4">
+          <div className="lg:ms-6 mt-8 flex justify-center lg:justify-start space-x-4">
             <AiFillInstagram className="text-2xl text-white" />
             <IoLogoTwitter className="text-2xl text-white" />
             <FaDiscord className="text-2xl text-white" />
@@ -47,10 +47,10 @@ const Banner = () => {
               className="w-10 rounded-full"
             />
           </div>
-          <div className="ms-4 text-sm">
-            <p className="font-semibold text-gray-800">Learn basic UI/UX design</p>
-            <p className="text-gray-600">Today at 3:00 PM</p>
-            <button className="bg-pink-500 mt-2 text-white font-semibold py-2 px-4 rounded-lg">
+          <div className="ms-4 text-sm tracking-normal">
+            <p className="font-semibold text-gray-800 text-xs">Learn basic UI/UX design</p>
+            <p className="text-gray-600 text-[10px]">Today at 3:00 PM</p>
+            <button className="bg-pink-500 mt-2 text-xs text-white font-semibold py-2 px-4 rounded-lg">
               Join Now
             </button>
           </div>

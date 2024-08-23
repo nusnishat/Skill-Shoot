@@ -3,10 +3,10 @@ const Discount = () => {
       <div className="relative bg-[#F2E7DB] px-12 flex flex-col md:flex-row items-center  mx-10 lg:mx-20">
         {/* Text Section */}
         <div className="flex-1 py-16 lg:py-12  mx-auto text-center lg:mx-0 lg:text-left">
-          <h2 className="text-xl md:text-4xl font-semibold lg:leading-relaxed ">
+          <h2 className="text-lg md:text-3xl lg:text-4xl font-semibold leading-relaxed md:leading-relaxed lg:leading-relaxed">
             Happy <span className="text-custom-coral">Chinese New Year</span>, 20% <br />discount for you today
           </h2>
-          <button className="mt-4 bg-custom-green text-xl text-white font-bold py-2 px-4 rounded-sm">
+          <button className="mt-4 bg-custom-green text-sm md:text-lg lg:text-xl text-white font-bold py-2 px-4 rounded-sm">
             Subscribe Course
           </button>
         </div>

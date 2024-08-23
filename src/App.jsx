@@ -14,7 +14,7 @@ import Testimoni from './Components/Testimoni/Testimoni'
 function App() {
 
   return (
-    <div className='font-poppins tracking-wide'>
+    <div className='font-poppins tracking-normal'>
       <Header></Header>
       <Banner></Banner>
       <Media></Media>

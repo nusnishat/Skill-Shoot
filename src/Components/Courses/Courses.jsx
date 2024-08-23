@@ -55,14 +55,14 @@ const Courses = () => {
 
   return (
     <div id='course' className="bg-custom-green py-20 px-10 lg:px-20 relative">
-      <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold text-white mb-4 text-center">
+      <h2 className="text-lg md:text-3xl lg:text-4xl font-semibold text-white mb-4 text-center">
         Popular courses of the week
       </h2>
-      <p className="text-sm md:text-[16px] leading:loose opacity-60 text-white mb-12 mx-auto text-center max-w-sm">
+      <p className="text-xs md:text-[16px] leading-loose opacity-60 text-white mb-12 mx-auto text-center max-w-sm">
         List of the most popular lists that are often studied by our members
       </p>
 
-      {/* floating shapes large screen */}
+      {/* floating shapes */}
       <div className="absolute top-[7%] lg:top-[19%] left-[7%] lg:left-[13%] w-6 h-6 bg-custom-coral rotate-12"></div>
       <div className="absolute top-[8%] lg:top-[19.5%] left-[8%] lg:left-[12.5%] w-6 h-6 border-2 border-custom-coral rotate-12"></div>
       <div className="absolute top-[9%] lg:top-[19%] right-[6%] lg:right-[13.25%] w-5 h-5 rounded-full bg-custom-coral rotate-12"></div>

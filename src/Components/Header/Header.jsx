@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { BsGridFill } from 'react-icons/bs';
+
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -75,20 +77,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <div className="lg:hidden">
           <button onClick={toggleMobileMenu}>
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              ></path>
-            </svg>
+          <BsGridFill className='text-2xl' />
           </button>
         </div>
       </div>
@@ -96,10 +85,10 @@ const Header = () => {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden">
-          <nav className="flex flex-col items-center space-y-4 mt-4">
+          <nav className="flex flex-col items-center space-y-2 mt-4 text-sm">
             <a
               href="#home"
-              className={`${linkClass('#home')}`}
+              className={`mt-4 ${linkClass('#home')}`}
               onClick={() => {
                 handleLinkClick('#home');
                 toggleMobileMenu();

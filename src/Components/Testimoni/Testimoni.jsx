@@ -38,13 +38,19 @@ const Testimoni = () => {
   return (
     <div id='testimoni' className="bg-[#F8F8F8] py-20 px-10 lg:px-20 relative">
       {/* Heading section */}
-      <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold  mb-4 text-center">
+      <h2 className="text-lg md:text-3xl lg:text-4xl font-semibold  mb-4 text-center">
         What do they <span className='text-custom-coral'>say?</span>
       </h2>
-      <p className="text-sm text-[#808080]  md:text-[16px]  mb-12 mx-auto text-center">
+      <p className="text-xs text-[#808080]  md:text-[16px]  mb-12 mx-auto text-center">
         This is an honest review from members who have joined us
       </p>
 
+      {/* floating shapes */}
+      <div className="absolute top-[7%] left-[7%] w-6 h-6 bg-custom-green rotate-12 lg:hidden"></div>
+      <div className="absolute top-[8%] left-[8%] w-6 h-6 border-2 border-custom-green rotate-12 lg:hidden"></div>
+      <div className="absolute top-[11%] right-[6%] w-4 h-4 rounded-full bg-green-700 rotate-12 lg:hidden"></div>
+      <div className="absolute top-[10%] right-[7%] w-5 h-5 rounded-full bg-custom-green rotate-12 lg:hidden"></div>
+      
       {/* Mobile view testimonial slider */}
       <div className="lg:hidden flex justify-center items-center">
         <button onClick={handlePrev} className="rounded-full bg-white p-2 me-2">

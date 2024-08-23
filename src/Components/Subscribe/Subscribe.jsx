@@ -48,8 +48,8 @@ const Subscribe = () => {
     <div id='subscribe' className="px-10 lg:px-20">
       <SubscribeBanner></SubscribeBanner>
       <div className="max-w-xl mx-auto text-center mt-20 mb-16">
-        <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold mb-4"><span className='text-custom-coral'>Subscribe</span> with us now</h2>
-        <p className="text-sm md:text-[16px] text-[#808080] mb-8 leading-relaxed">By subscribing now you will be able to access the material easily and cheaply, so you will be very efficient and benefit</p>
+        <h2 className="text-lg md:text-3xl lg:text-4xl font-semibold mb-4"><span className='text-custom-coral'>Subscribe</span> with us now</h2>
+        <p className="text-xs md:text-[16px] text-[#808080] mb-8 leading-relaxed">By subscribing now you will be able to access the material easily and cheaply, so you will be very efficient and benefit</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mx-auto max-w-[850px] pb-16 lg:pb-20">
