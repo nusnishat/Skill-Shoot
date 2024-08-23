@@ -8,13 +8,13 @@ import { SlCalender } from 'react-icons/sl';
 
 const Banner = () => {
   return (
-    <div className="relative bg-custom-green text-white pt-12 px-10 lg:px-20 flex flex-col lg:flex-row items-center">
+    <div id='home' className="relative bg-custom-green text-white pt-12 px-10 lg:px-20 flex flex-col lg:flex-row items-center">
       {/* Banner Description Section */}
       <div className="flex-1 text-center lg:text-left">
-        <h1 className="text-xl lg:text-4xl leading-relaxed lg:leading-snug font-bold mb-4 relative">
+        <h1 className="text-xl md:text-3xl lg:text-4xl leading-relaxed lg:leading-snug font-bold mb-4 relative">
           There is always <br /> something new for us to learn
         </h1>
-        <p className="text-md lg:text-lg text-custom-light mb-8 max-w-md leading-loose">
+        <p className="text-md md:text-lg text-custom-light mb-8 max-w-md leading-loose">
           We have created more than 100+ materials on various things that will help your career, with mentors who are experienced in their fields.
         </p>
         <div className="lg:flex mb-16">

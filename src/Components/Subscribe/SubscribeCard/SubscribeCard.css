@@ -24,7 +24,7 @@ p{
 }
 .card:hover {
     background-color: hsla(167, 44%, 25%, 1);
-    transform: scale(1.15); 
+    transform: scale(1.08); 
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5); /* Add shadow */
     color: white;
 }

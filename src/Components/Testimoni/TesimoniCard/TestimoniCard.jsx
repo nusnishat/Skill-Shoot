@@ -22,7 +22,7 @@ const TestimoniCard = ({ testimoniInfo }) => {
         </div>
       <div className="px-6 lg:px-8 mb-6 lg:mb-8">
         <h1 className="text-lg lg:text-2xl font-semibold mb-4">{name}</h1>
-        <p className="leading-loose font-normal text-xs lg:text-sm text-[#808080] max-w-64">{description}</p>
+        <p className="leading-loose font-normal text-sm md:text-[16px] text-[#808080] max-w-64">{description}</p>
       </div>
       <div className={`${id == 2 && 'border-b-4 border-custom-green'}`}>
         

@@ -7,7 +7,7 @@ import { FaCheck} from 'react-icons/fa';
 const SubscribeCard = ({ plan }) => {
     const {price, duration, title, description, features} = plan;
   return (
-    <div className="card relative p-6 rounded-xl transition">
+    <div className="card relative p-6 rounded-xl transition max-w-xl mx-auto">
       <div>
       <button className='btn-hidden px-4 text-xs rounded-full py-2'>
         Most Popular

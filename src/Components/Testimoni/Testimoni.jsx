@@ -36,12 +36,12 @@ const Testimoni = () => {
   };
 
   return (
-    <div className="bg-[#F8F8F8] py-20 px-10 lg:px-20 relative">
+    <div id='testimoni' className="bg-[#F8F8F8] py-20 px-10 lg:px-20 relative">
       {/* Heading section */}
-      <h2 className="text-xl lg:text-4xl font-semibold  mb-4 text-center">
+      <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold  mb-4 text-center">
         What do they <span className='text-custom-coral'>say?</span>
       </h2>
-      <p className="text-sm text-[#808080]  lg:text-lg  mb-12 mx-auto text-center">
+      <p className="text-sm text-[#808080]  md:text-[16px]  mb-12 mx-auto text-center">
         This is an honest review from members who have joined us
       </p>
 

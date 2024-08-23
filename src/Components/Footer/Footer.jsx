@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer className="bg-custom-green text-white pt-24 pb-12 px-10 lg:px-20 relative">
       {/* Heading section */}
-      <h2 className="text-xl lg:text-4xl mb-4 text-center">
+      <h2 className="text-xl md:text-3xl lg:text-4xl mb-4 text-center">
         Subscribe to get notified about update
       </h2>
-      <p className="text-sm lg:text-lg mb-16 text-center opacity-60">
+      <p className="text-sm md:text-[16px] mb-16 text-center text-white opacity-60">
         By subscribing with your mail, you will accept our privacy policy
       </p>
 
@@ -35,11 +35,11 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div className="flex flex-col lg:flex-row lg:space-x-4 items-center text-center lg:text-left">
-          <a href="#" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>Home</a>
-          <a href="#" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>Course</a>
-          <a href="#" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>Subscribe</a>
-          <a href="#" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>About</a>
-          <a href="#" className='text-white opacity-60 hover:opacity-100'>Testimoni</a>
+          <a href="#home" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>Home</a>
+          <a href="#course" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>Course</a>
+          <a href="#subscribe" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>Subscribe</a>
+          <a href="#about" className='text-white opacity-60 hover:opacity-100 mb-4 lg:mb-0'>About</a>
+          <a href="#testimoni" className='text-white opacity-60 hover:opacity-100'>Testimoni</a>
         </div>
       </div>
     </footer>
